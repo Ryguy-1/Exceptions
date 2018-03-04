@@ -15,6 +15,12 @@ public class ExceptionsDemo {
 		//    call to testMethod1 with a try/catch block.
 		//    In the catch block, put a print statement so you know
 		//    if the code is being ran.
+		ExceptionsDemo demo = new ExceptionsDemo();
+		try{
+			demo.testMethod1(8);
+		}catch (Exception e) {
+			System.out.println("Caught");
+		}
 		
 		// 2. Now call testMethod1 with a value greater than 5. 
 		//    Running your program should not print the statement
