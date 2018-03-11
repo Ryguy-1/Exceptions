@@ -17,7 +17,7 @@ public class ExceptionsDemo {
 		//    if the code is being ran.
 		ExceptionsDemo demo = new ExceptionsDemo();
 		try{
-			demo.testMethod1(8);
+			demo.testMethod1(3);
 		}catch (Exception e) {
 			System.out.println("Caught");
 		}
